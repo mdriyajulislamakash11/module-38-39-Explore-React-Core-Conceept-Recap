@@ -1,6 +1,7 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Posts from './Components/Posts'
 
 function App() {
 
@@ -25,8 +26,8 @@ function App() {
         <li>load Data</li>
       </ol>
       <hr />
+      <Posts></Posts>
 
-      
     </>
   )
 }
